@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
   def hello
-    render html: "My Hello World from Azure App Service on Linux!"
+    render html: "Hello World from Azure App Service on Linux!"
   end
 end
